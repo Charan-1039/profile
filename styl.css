@@ -1,0 +1,289 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    background-color: rgb(34, 34, 34);
+    
+}
+
+nav ul {
+    padding: 1vw 2vw;
+    list-style: none;
+    display: flex;
+    gap: 2vw;
+}
+
+nav ul li a{
+    padding: 1vw;
+    text-decoration: none;
+    color: rgb(201, 200, 200);
+    transition: 0.5s;
+}
+
+nav ul li a:hover{
+    color: rgb(255, 208, 0);
+}
+
+.cont{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    background-color: rgb(241, 240, 240);
+    padding-bottom: 12vw;
+    box-shadow: 10px 30px 105px rgb(156, 156, 156);
+}
+.cont-text {
+    padding-top: 9vw;
+}
+.cont-text h1{
+    padding: 0vw 4vw ;
+    font-size: 4vw;
+    transition: 1s;
+}
+.cont-text h1:hover{
+    font-size: 4.5vw;
+    color: rgb(22, 67, 134);
+}
+h2{
+    font-size: 2vw;
+    padding-left: 4vw;
+}
+.icons ul{
+    padding-left: 3.5vw;
+    align-items: center;
+    justify-content: space-between;
+}
+.icons ul li{
+    display: inline-block;
+}
+i{
+    font-size: 1.5vw;
+    padding: 1vw 1vw;
+    justify-content: start;
+    transition: 1s;
+}
+i:hover{
+    font-size: 2vw;
+    color: rgb(252, 27, 121);
+}
+.img .img-pic{
+    justify-content: end;
+    padding-left: 0vw;
+    padding-right: 15vw;
+    padding-top: 5vw;
+    width: 20vw;
+    height: 20vw;
+
+}
+
+.para{
+    font-size: 1vw;
+    font-weight: 600;
+    padding-top: 4vw;
+    padding-left: 4vw;
+    width: 80%;
+    text-align: justify;
+}
+.img .img-pic img{
+    box-shadow: 10px 10px 80px blue;
+    position:  relative;
+    overflow: hidden;
+    border-radius: 100vw;
+    width: 26vw;
+    height: 25vw;
+}
+
+
+/* about */
+
+.abt-hdr{
+    padding-top: 9vw;
+}
+
+.abt-hdr h2{
+    color: rgb(255, 72, 0);
+    font-size: 3vw;
+}
+
+.abt-con{
+    padding-top: 2vw;
+    justify-content: start;
+    align-items: center;
+    padding-bottom: 2vw;
+}
+
+.abt-con h2{
+    font-size: 2.2vw;
+    padding: 0.5vw 4vw;
+}
+
+.abt-con  h3{
+    font-size: 1.5vw;
+    color: rgb(255, 72, 0);
+    padding-left: 4vw;
+}
+
+.abt-con .abt-con-btn{
+    padding-left: 4vw;
+    padding-top: 4vw;
+}
+
+.abt-con .abt-con-btn a{
+    font-size: 1vw;
+    color: white;
+    border-radius: 2vw;
+    background-color: rgb(255, 72, 0);
+    padding: 1vw 5vw;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.abt-con .abt-con-btn a:hover{
+    background-color: transparent;
+    box-shadow: 15px 10px 35px rgb(255, 72, 0);
+    color: rgb(255, 72, 0);
+    font-size: 1.1rem;
+}
+
+
+
+/* Technical Skills */ 
+
+.T-header{
+    text-align: center;
+    padding-top: 5vw;
+    font-size: 1.5vw;
+}
+
+.T-hero{
+    justify-content: center;
+    gap: 5vw;
+    display: flex;
+    padding: 4vw 2vw;
+}
+
+.java{
+    color: white;
+    border-radius: 5vw;
+    background-color: rgb(58, 46, 48);
+    height: 4vw;
+    width: 15vw;
+    transition: 1s;
+}
+
+.java:hover{
+    color: rgb(255, 76, 76);
+    background-color: white;
+    box-shadow: 30px 20px 40px rgb(194, 194, 194);
+}
+
+.java h2{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.8vw;
+    padding-right: 4.1vw;
+}
+
+
+/* table */
+
+.E-header{
+    text-align: center;
+    padding-top: 2vw;
+    font-size: 1.5vw;
+}
+
+.E-cont{
+    justify-content: center;
+    align-items: center;
+    padding: 1vw;
+}
+
+.E-table{
+    display: flex;
+    padding-top: 3vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.E-table th {
+    
+    background-color: beige;
+    text-align: center;
+    padding: 1vw;
+}
+
+.E-table tr{
+    background-color: #f3f3f3;
+}
+
+.E-table tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+.E-table td {
+    text-align: center;
+    padding: 1vw 5vw;
+}
+/* table */
+
+/* Projects*/
+.p-header{
+    padding-left: 0vw;
+}
+.p-header h2{
+    text-align: start;
+    padding-top: 5vw;
+    font-size: 2.5vw;
+}
+
+.p-table{
+    padding-left: 3vw;
+    display: flex;
+    padding-top: 3vw;
+    align-items: center;
+    justify-content: start;
+}
+
+.p-table th {
+    
+    background-color: beige;
+    text-align: center;
+    padding: 1vw;
+}
+
+.p-table tr{
+    background-color: #f3f3f3;
+}
+
+.p-table tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+.p-table td {
+    text-align: center;
+    padding: 0.5vw 5vw;
+}
+
+
+.p-h{
+    margin: 2vw 3.6vw;
+    background-color: #f3f3f3;
+    padding: 2vw 2vw;
+    text-align: justify;
+    width: 65vw;
+    transition: 0.5s;
+}
+.p-h:hover{
+    transform: scale(1.03);
+    border-radius: 1vw;
+    background-color: rgb(48, 43, 43);
+    color: #dddddd;
+}
+.p-h h3{
+    font-size: 2vw;
+    padding-bottom: 1vw;
+}
